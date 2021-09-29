@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/yuv_to_jpeg.h
+stdio.h
+-
+jpeglib.h
+-
+stdlib.h
+-
+string.h
+-
+
+/home/pi/test/src/main.cpp
+stdio.h
+-
+sys/ioctl.h
+-
+linux/videodev2.h
+-
+string.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+poll.h
+-
+stdlib.h
+-
+yuv_to_jpeg.h
+/home/pi/test/src/yuv_to_jpeg.h
+
+/home/pi/test/src/yuv_to_jpeg.cpp
+yuv_to_jpeg.h
+/home/pi/test/src/yuv_to_jpeg.h
+

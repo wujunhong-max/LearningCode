@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g -O2  -rdynamic CMakeFiles/ProJ.dir/src/main.cpp.o CMakeFiles/ProJ.dir/src/yuv_to_jpeg.cpp.o  -o ProJ  -L/home/pi/test/lib -Wl,-rpath,/home/pi/test/lib:/usr/local/lib /usr/local/lib/libjpeg.so.9 
